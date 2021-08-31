@@ -63,8 +63,22 @@ while(index < max){
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
 
+let x = 0;
+let lastNum = 6;
 
+while(x< lastNum){
+  console.log(x);
+  x++;
+}
 
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
+
+let y = 10;
+let backNum = 4;
+
+while(y > backNum){
+  console.log(y);
+  y--;
+}
